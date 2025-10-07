@@ -1,0 +1,43 @@
+{
+  "name": "front",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.3",
+    "@casl/vue": "^2.2.2",
+    "@vuepic/vue-datepicker": "^11.0.2",
+    "apexcharts": "^4.5.0",
+    "axios": "^1.5.1",
+    "chart.js": "^4.4.0",
+    "font-awesome": "^4.7.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-vue-next": "^0.525.0",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.0",
+    "pinia": "^2.0.0",
+    "pinia-plugin-persistedstate": "^2.4.0",
+    "qs": "^6.14.0",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.4",
+    "vue3-apexcharts": "^1.8.0",
+    "vue3-date-time-picker": "^2.8.3",
+    "vue3-toastify": "^0.2.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^9.31.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}

@@ -1,0 +1,23 @@
+# Environnements
+.env
+.env.production
+
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données locales
+backend/uploads/
+data/
+
+# Build outputs (si utilisés)
+dist/
+build/
